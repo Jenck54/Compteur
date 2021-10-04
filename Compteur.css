@@ -1,0 +1,41 @@
+body {
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+h1 {
+    margin: 100px 380px;
+    font-size: 600%;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.container>div {
+    margin-top: 50px;
+    font-size: 300%;
+    font-weight: bolder;
+}
+#jourJ {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#heureH {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#minuteM {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#secondeS {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
